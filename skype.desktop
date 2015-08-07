@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Skype (Inofficial)
+Comment=Skype Web App (inofficial) using the Skype web version with a User Agent override for Ubuntu Touch devices.
+Type=Application
+Icon=skype.png
+Exec=webapp-container --store-session-cookies --user-agent-override='Mozilla/5.0 (Linux; U; ; KFAPWI Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Silk/3.13 Safari/535.19 Silk-Accelerated=true' --webappUrlPatterns=https://*.skype.com/*,https://www.facebook.com/* https://web.skype.com %u
+Terminal=false
+X-Ubuntu-Touch=true

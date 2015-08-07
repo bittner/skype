@@ -1,0 +1,44 @@
+Skype (Inofficial)
+------------------
+
+This web app uses the Skype web version with a User Agent override
+(mimicking Amazon Kindle Fire HDX). It makes the Skype web version
+available on Ubuntu Touch mobile devices by simply working around the
+"Not available on this device yet" message.
+
+Messaging will work, but voice and video calls will not be available.
+Note that most if not all limitations will almost certainly depend on
+Microsoft implementing the necessary feature (e.g. voice calls) on the
+web version and the target platform (Amazon Kindle at the moment).
+
+This web app is not affiliated with Microsoft who owns Skype.
+The Skype name, associated trade marks and logos and the "S" logo are
+trade marks of Skype or related entities.
+
+License
+-------
+
+Skype (Inofficial) Web App for Ubuntu Touch devices
+Copyright (C) 2015  Peter Bittner <django@bittner.it>
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+Support
+-------
+
+Source code:
+- https://github.com/bittner/skype
+
+Issue tracker:
+- https://github.com/bittner/skype/issues
