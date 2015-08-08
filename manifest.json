@@ -1,8 +1,8 @@
 {
     "name": "skype.peter-bittner",
-    "description": "Skype Web App (inofficial) using the Skype web version",
+    "description": "Skype Web App (unofficial) using the Skype web version",
     "architecture": "all",
-    "title": "Skype (Inofficial)",
+    "title": "Skype (Unofficial)",
     "hooks": {
         "skype": {
             "apparmor": "skype.apparmor",
@@ -11,5 +11,5 @@
     },
     "version": "0.1",
     "maintainer": "Peter Bittner <django@bittner.it>",
-    "framework": "ubuntu-sdk-14.10"
+    "framework": "ubuntu-sdk-15.04"
 }
