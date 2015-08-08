@@ -4,7 +4,7 @@ Skype (Inofficial)
 This web app uses the Skype web version with a User Agent override
 (mimicking Amazon Kindle Fire HDX). It makes the Skype web version
 available on Ubuntu Touch mobile devices by simply working around the
-"Not available on this device yet" message.
+Skype web version's "Not available on this device yet" message.
 
 Messaging will work, but voice and video calls will not be available.
 Note that most if not all limitations will almost certainly depend on
