@@ -9,7 +9,7 @@
             "desktop": "skype.desktop"
         }
     },
-    "version": "0.1",
+    "version": "0.2",
     "maintainer": "Peter Bittner <django@bittner.it>",
     "framework": "ubuntu-sdk-15.04"
 }
