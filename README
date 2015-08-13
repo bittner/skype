@@ -55,3 +55,9 @@ Introductory guide on Ubuntu Webapps
 
 Ubuntu Webapps tutorials
 - https://developer.ubuntu.com/en/web/tutorials/
+
+Build and publish the .click package manually, without Ubuntu SDK:
+- Install `click` on your developer machine (`sudo apt-get install click`)
+- Make sure you have bumped the version number in `manifest.json`
+- `cd` into the project repo folder and build the package (`click build .`)
+- Upload the created .click file at https://myapps.developer.ubuntu.com
