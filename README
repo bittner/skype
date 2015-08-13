@@ -1,6 +1,9 @@
 Skype (Unofficial)
 ------------------
 
+Skype chat on Ubuntu Touch. No voice and video yet; the Skype team
+(not us!) is working on this.
+
 This web app makes the Skype web version available on Ubuntu Touch
 mobile devices by help of a User Agent override (mimicking Chromium
 Web browser on a Ubuntu Linux desktop). Without that Skype's web
