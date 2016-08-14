@@ -1,8 +1,8 @@
 Skype (Unofficial)
 ------------------
 
-Skype chat on Ubuntu Touch. No voice and video yet; the Skype team
-(not us!) is working on this.
+Skype chat and outgoing voice calls on Ubuntu Touch. Video calls are
+not working yet; the Skype team (not us!) is working on this.
 
 This web app makes the Skype web version available on Ubuntu Touch
 mobile devices by help of a User Agent override (mimicking Chromium
@@ -10,10 +10,14 @@ Web browser on a Ubuntu Linux desktop). Without that Skype's web
 version displays a "Not available on this device yet" message on most
 mobile platforms as of today.
 
-Messaging will work, but voice and video calls will not be available.
+Messaging will work, voice calls too, video calls are not available
+yet. Notifications are limited too, both for incoming calls (when the
+app is active) and all other notifications when the app is in the
+background; we can do little about this: Canonical must provide a
+notification infrastructure, which the Skype team would have to use.
 Note that most if not all limitations will almost certainly depend on
-Microsoft implementing the necessary feature (e.g. voice calls) on the
-web version and the target platform.
+Microsoft implementing the necessary feature on the web version and the
+target platform.
 
 This web app is not affiliated with Microsoft who owns Skype.
 The Skype name, associated trade marks and logos and the "S" logo are
@@ -23,7 +27,7 @@ License
 -------
 
 Skype (Unofficial) Web App for Ubuntu Touch devices
-Copyright (C) 2015  Peter Bittner <django@bittner.it>
+Copyright (C) 2015-2016  Peter Bittner <django@bittner.it>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
